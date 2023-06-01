@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Топ гітар світу</title>
+  <link rel="stylesheet" href="top_guitar.css">
+  <script src="slider.js"></script>
+  <link rel="icon" href="1g.jpg" type="image/x-icon">
+</head>
+<body class="custom-cursor">
+  <header>
+    <div class="dropdown" class="custom-cursor">
+      <button class="menu-button">Зміст</button>
+      <button onclick="goToHomePage()">Головна сторінка</button>
+
+<script>
+  function goToHomePage() {
+    window.location.href = "index.html"; // Замініть "index.html" на URL вашої головної сторінки
+  }
+</script>
+      <div class="dropdown-content">
+        <button onclick="window.open('epoche_of_guitarists.html', '_blank')">Винекнення епохи гітаристів</button>
+        <button onclick="window.open('top_guitar.html', '_blank')">Топ гітар всього часу</button>
+        <button onclick="window.open('index.html', '_blank')">Топ гітаристів</button>
+      </div>
+    </div>
+    <h1>Топ гітар світу</h1>
+  </header>
+
+  <div class="slider">
+    <div class="slider-wrapper">
+      <img src="git1.jpg" alt="Slide 1" class="slide">
+      <img src="git2.jpg" alt="Slide 2" class="slide">
+      <img src="git3.jpg" alt="Slide 3" class="slide">
+      <img src="git4.jpg" alt="Slide 3" class="slide">
+    </div>
+    <button class="prev">Назад</button>
+    <button class="next">Вперед</button>
+  </div>
+  <h1 align="center">Інструменти YAMAHA</h1>
+  Інструменти YAMAHA створені в результаті творчого діалогу як з любителями, так і з професійними музикантами. Духові інструменти YAMAHA використовують всесвітньо відомі солісти і найзнаменитіші оркестри, включаючи Віденський філармонічний, Бостонський симфонічний, Нью-Йоркський філармонічний, Лондонський симфонічний і Берлінський філармонічний. Провідні музиканти світу грають на гітарах YAMAHA, і це не дивно, оскільки YAMAHA проводить дослідження в області концепції і можливостей інструментів спільно з відомими виконавцями. Вражаючий список музикантів, які віддають перевагу YAMAHA, містить, зокрема, імена Майка Штерна, Натана Іста і Джона Патітуччі. Створення нових гітар відбувається в Центрі по Створенню Гітар YAMAHA в Лос-Анжелесі. YAMAHA пропонує повний асортимент ударних інструментів: литаври, концертні барабани, маримби і вібрафон — прекрасної якості, з прекрасною репутацією серед музикантів. На щорічних зборах Drum Corps International (США) і інших з'їздах духових оркестрів інструменти YAMAHA заслужили прекрасні відгуки. Ударні інструменти YAMAHA також віддають перевагу всесвітньо відомі музиканти, наприклад, Стів Гед і Лері Мюллен Джуніор. Новітня розробка Тихих Барабанов DTExtreme, заснована на новій концепції, є синтезом традиційних барабанів і сучасної цифрової технології.
+  
+  <footer>
+    Любарець Владислав 2023
+  </footer>
+
+  <script>
+    // JavaScript для випливаючих кнопок
+    var menuButton = document.querySelector('.menu-button');
+    var dropdownContent = document.querySelector('.dropdown-content');
+    
+    menuButton.addEventListener('click', function() {
+      dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
+    });
+  </script>
+</body>
+</html>
